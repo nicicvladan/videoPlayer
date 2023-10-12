@@ -3,7 +3,7 @@
     padding: 0;
 }
 #wrap{
-    width: 1000px;
+    width: auto;
     margin: 0 auto;
 }
 .container{
@@ -11,6 +11,7 @@
     height: 400px;
     margin: 30px auto;
     position: relative;
+    border: 1px solid #330505;
 }
 video{
     width: 600px;
@@ -43,7 +44,7 @@ video{
 @media only screen and (max-width : 600px){
    video{
         width: 100%;
-        margin: 0 auto;
+        height: auto;
     }
 
 }

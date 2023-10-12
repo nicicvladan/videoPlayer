@@ -67,7 +67,7 @@ function reloadVideo(){
         this.playVideo = function(){
             if(this.playBtn.getAttribute('src') == "icons8-play-64.png"){
                 this.video.play();
-                this.playBtn.setAttribute('src','icons8-pause-64.png');
+                this.playBtn.setAttribute('src','icons8-pause-button-50.png');
             }else{
                 this.video.pause();
                 this.playBtn.setAttribute('src','icons8-play-64.png');
